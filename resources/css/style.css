@@ -5,4 +5,27 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  display: inline;
+}
+
+nav a {
+  color: seashell;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
 }
