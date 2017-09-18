@@ -9,11 +9,20 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.nav.wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 69px;
-  border-bottom: 1px solid seashell;
+  margin-top: 8px;
 }
 
 nav {
