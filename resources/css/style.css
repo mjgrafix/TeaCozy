@@ -72,6 +72,7 @@ section {
   width: 1200px;
   background-color: black;
 }
+
 /* tea section */
 #tea {
     margin: 50px auto;
@@ -91,4 +92,38 @@ section {
 
 .tea-item {
   margin: 10px 10px;
+}
+
+/* locations section */
+#locations {
+  background-image: url(./../images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#locations h2 {
+  width: 1200px;
+  margin-bottom: 15px;
+}
+
+.location-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-item {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: auto 20px;
+  padding: 10px 0;
+}
+
+p {
+  line-height: 60px;
+  margin: 0;
 }
