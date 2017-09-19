@@ -75,7 +75,7 @@ section {
 
 /* tea section */
 #tea {
-    margin: 50px auto;
+  margin: 50px auto;
 }
 
 .tea-item img {
@@ -126,4 +126,19 @@ section {
 p {
   line-height: 60px;
   margin: 0;
+}
+
+/* footer */
+.footer-title {
+  height: 200px;
+}
+
+footer h5 {
+  line-height: 60px;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
